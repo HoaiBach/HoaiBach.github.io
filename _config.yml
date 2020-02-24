@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Dr. Bach Hoai Nguyen"
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   bio              : "Evolutionary Computation for Feature Manipulation, Transfer Learning."
   location         : "Wellington, New Zealand"
   employer         :
