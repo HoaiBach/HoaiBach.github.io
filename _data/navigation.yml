@@ -3,11 +3,17 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Professional Activities"
+    url: /activities/
+  
+  - title: "Publications"
+    url: /publications/
+
   #- title: "Talks"
   #  url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Teaching and Supervision"
+    url: /teaching_and_sup/    
     
  # - title: "Portfolio"
  #   url: /portfolio/
