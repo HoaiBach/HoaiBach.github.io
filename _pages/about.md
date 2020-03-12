@@ -8,4 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-This is Hoai Bach for testing.
+Postdoctoral Research Fellow
+Evolutionary Computation Research Group (ECRG)
+School of Engineering and Computer Science (SECS)
+Victoria University of Wellington
+
