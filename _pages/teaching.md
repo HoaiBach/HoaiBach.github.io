@@ -1,9 +1,3 @@
----
-layout: archive
-permalink: /teaching/
-author_profile: true
----
-
 # Teaching in 2020
 - [COMP 424: Big Data](https://ecs.wgtn.ac.nz/Courses/COMP424_2020T1/)
 
