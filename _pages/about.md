@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Hoai Bach"
+title: "Dr Bach (Hoai) Nguyen"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
