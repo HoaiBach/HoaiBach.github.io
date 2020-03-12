@@ -5,9 +5,10 @@ author_profile: true
 ---
 
 # Teaching in 2020
+- [COMP 424: Big Data](https://ecs.wgtn.ac.nz/Courses/COMP424_2020T1/)
 
 # Master students
--Juhini Desai, "Particle Swarm Optimisation for Feature Selection in Multi-Label Classification", Master Computer Science, Victoria University of Wellington, 19 Nov 2018 -- 28 Jun 2019 (co-supervised with A/Prof. Bing Xue)
+- Juhini Desai, "Particle Swarm Optimisation for Feature Selection in Multi-Label Classification", Master Computer Science, Victoria University of Wellington, 19 Nov 2018 -- 28 Jun 2019 (co-supervised with A/Prof. Bing Xue)
 
 # Honours project students
 - Kaan Demir,"Multi-label feature selection", 09 Mar 2020 -- now (am the primary supervisor, co-supervised with A/Prof Bing Xue)
