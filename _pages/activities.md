@@ -19,11 +19,8 @@ author_profile: true
 
 # International Conference Program Committee Member:
 - 2020 International Joint Conference on Artificial Intelligence - Pacific Rim International Conference on Artificial Intelligence (IJCAI-PRICAI)
-
 - 2020 AAAI Conference on Artificial Intelligence
-
-
-- 2020 Genetic and Evolutionary Computation Conference   
+- 2020 Genetic and Evolutionary Computation Conference
 - 2020 IEEE Congress on Evolutionary Computation
 - 2019 AAAI Conference on Artificial Intelligence
 - 2019 Genetic and Evolutionary Computation Conference
