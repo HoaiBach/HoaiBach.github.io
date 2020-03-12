@@ -13,4 +13,4 @@ Evolutionary Computation Research Group ([ECRG](https://ecs.wgtn.ac.nz/Groups/EC
 School of Engineering and Computer Science ([SECS](https://www.wgtn.ac.nz/ecs))  
 Victoria University of Wellington  
 ***
-
+# Reserch Interests
