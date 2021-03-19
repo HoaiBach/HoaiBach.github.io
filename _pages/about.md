@@ -19,6 +19,8 @@ My research interests inclide artificial intelligence, machine learning, and evo
 - Evolutionary multi-objective optimisation (EMO)
 - Feature selection, feature construction, dimensionality reduction
 - Classification, transfer learning, domain adaptation
+- sucks
+
 
 # Biography
 Bach (Hoai) Nguyen received his BSc degree with First Class Honours in 2015, and his PhD degree in 2018 from Victoria University of Wellington, New Zealand. He is curretly a Postdoctoral Research Fellow at Victoria University of Wellington, New Zealand. His main reserch topics are evolutionary computation, feature selection, feature construnction, dimensionality reduction, multi-objective optimisation, and transfer learning.
