@@ -5,10 +5,10 @@ permalink: /teaching/
 author_profile: true
 ---
 # Teaching
-- [AIML 427: Big Data](https://www.wgtn.ac.nz/courses/aiml/427/2021/offering?crn=33069)in 2021
-- [COMP 424: Big Data](https://ecs.wgtn.ac.nz/Courses/COMP424_2020T1/)in 2020
+- [AIML 427: Big Data](https://www.wgtn.ac.nz/courses/aiml/427/2021/offering?crn=33069) in 2021
+- [COMP 424: Big Data](https://ecs.wgtn.ac.nz/Courses/COMP424_2020T1/) in 2020
 - [COMP 309: Machine Learning Tools and Techniques](https://www.wgtn.ac.nz/courses/comp/309/2019/offering?crn=30098) Guest lectures in 2020 
-- [COMP 424: Big Data](https://ecs.wgtn.ac.nz/Courses/COMP424_2020T1/)in 2019
+- [COMP 424: Big Data](https://ecs.wgtn.ac.nz/Courses/COMP424_2020T1/) in 2019
 - [COMP 422: Data Mining, Neural Networks and Genetic Programming](https://www.wgtn.ac.nz/courses/comp/422/2019/offering?crn=2324) in 2019
 - [COMP 309: Machine Learning Tools and Techniques](https://www.wgtn.ac.nz/courses/comp/309/2019/offering?crn=30098) Guest lectures in 2019   
 
