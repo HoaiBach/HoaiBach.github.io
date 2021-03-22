@@ -20,7 +20,7 @@ author_profile: true
 
 # Honours project students
 - Jesse Wood, "Machine Learning for New Zealand Fish Data Analysis", Feb 2021 (co-supervised with Prof Bing Xue and Prof Mengjie Zhang)
-- Kaan Demir, "Multi-label feature selection", Mar 2020 -- Nov 2021 (am the primary supervisor, co-supervised with Prof Bing Xue)
+- Kaan Demir, "Multi-label feature selection", Mar 2020 -- Nov 2020 (am the primary supervisor, co-supervised with Prof Bing Xue)
 
 # Summer scholarship projects
 - Kaan Demir, "Evolutionary Many-objective for Multi-label Feature Selection", Victoria University of Wellington, 11 Nov 2020 -- 28 Feb 2021 (am the primary supervisor, co-supervised with Prof Bing Xue and Prof Mengjie Zhang)
