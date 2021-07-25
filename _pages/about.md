@@ -19,7 +19,6 @@ My research interests inclide artificial intelligence, machine learning, and evo
 - Evolutionary multi-objective optimisation (EMO)
 - Feature selection, feature construction, dimensionality reduction
 - Classification, transfer learning, domain adaptation
-- sucks
 
 
 # Biography
