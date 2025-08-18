@@ -10,7 +10,7 @@ locale                   : "en-NZ"
 title                    : "Dr. Bach Hoai Nguyen"
 title_separator          : "-"
 name                     : &name "Dr. Bach Hoai Nguyen"
-description              : &description "Postdoctoral Research Fellow, Victoria University of Wellington"
+description              : &description "Lecturer in Artificial Intelligence, Victoria University of Wellington"
 url                      : https://hoaibach.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hoaibach.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Dr. Bach Hoai Nguyen"
   avatar           : "BachNguyen.jpg"
-  bio              : "Postdoctoral Research Fellow, Victoria University of Wellington"
+  bio              : "Lecturer in Artificial Intelligence, Victoria University of Wellington"
   location         : "Wellington, New Zealand"
   employer         :
   pubmed           : 
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "HoaiBach"
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
