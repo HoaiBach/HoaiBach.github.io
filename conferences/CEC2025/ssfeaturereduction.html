@@ -1,190 +1,191 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CEC 2025 | Special Session on Evolutionary Computation for Feature Reduction</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #007BFF 0%, #0056b3 100%);
+      color: #fff;
+      text-align: center;
+      padding: 4rem 1rem 3rem 1rem;
+    }
+    header h1 {
+      font-weight: 700;
+      font-size: 2rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    nav.navbar {
+      background-color: #f8f9fa;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    section {
+      padding: 3rem 0;
+    }
+    .section-title {
+      font-weight: 600;
+      color: #0056b3;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #0056b3;
+      display: inline-block;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .card {
+      border-radius: 1rem;
+      border: none;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    footer {
+      background: #f1f3f5;
+      padding: 2rem 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
 
-	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
- 	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
- 	<script src="https://cdn.staticfile.org/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-    <title> 
-
-Call for Papers: 
-Evolutionary Computation for Feature Selection, Extraction and Dimensionality Reduction (CEC) 2025
-</title>
-  </head>
-  <body>
+  <header>
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-              <div class="jumbotron">
-                <h2 class="display-5">Call for Papers:<br/>Special Session on Evolutionary Computation for Feature Selection, Extraction and Dimensionality Reduction</h2>
-                <div class="col-md-12 pull-right"><a href="https://www.cec2025.org/">IEEE Congress on Evolutionary Computation (CEC 2025)</a>, 08-12 June, 2025, Hangzhou, China</div>
-              </div>
-            </div>
-        </div>
-
-         <ul class="nav nav-tabs navbar-dark bg-light sticky-top" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" href="#aimandscope" role="tab" data-toggle="tab">Scope & Aim</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#topics" role="tab" data-toggle="tab">Topics</a>
-          </li>
-	  <li class="nav-item">
-            <a class="nav-link" href="#importantdate" role="tab" data-toggle="tab">Important Date</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#submission" role="tab" data-toggle="tab">Submissions</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#committee" role="tab" data-toggle="tab">Program Committee 
-</a>
-          </li>
-	<li class="nav-item">
-            <a class="nav-link" href="#Organization" role="tab" data-toggle="tab">Organizers</a>
-          </li>
-        </ul>
-		
-        <!-- Tab panes -->
-        <div class="tab-content  text-muted p-3">
-          <div role="tabpanel" class="tab-pane in active" id="aimandscope">
-            <div class="row">
-                <div class="col-md-12">
-					<p style="text-align:justify; text-justify:inter-ideograph;">In machine learning and data mining, the quality of the input data determines the quality of the output (e.g. accuracy), known as the GIGO (Garbage In, Garbage Out) principle. For a given problem, the input data of a learning algorithm is almost always expressed by a number of features (attributes or variables). Therefore, the quality of the feature space is a key for success of any machine learning and data algorithm.</p>
-					<p style="text-align:justify; text-justify:inter-ideograph;">Feature selection, feature extraction or construction and dimensionality reduction are important and necessary data pre-processing steps to increase the quality of the feature space, especially with the trend of big data. Feature selection aims to select a small subset of important (relevant) features from the original full feature set. Feature extraction or construction aims to extract or create a set of effective features from the raw data or create a small number of (more effective) high-level features from (a large number of) low-level features. Dimensionality reduction aims to reduce the dimensionality of the data space with the focus of solving "the curse of dimensionality" issue. All of them can potentially improve the performance of a learning algorithm significantly in terms of the accuracy, increase the learning speed, and the complexity and the interpretability of the learnt models. However, they are challenging tasks due to the large search space and feature interaction problems. Recently, there has been increasing interest in using evolutionary computation techniques to solve these tasks due to the fast development of evolutionary computation and capability of stochastic search, constraint handling and dealing with multiple conflict objectives.</p>
-					<p style="text-align:justify; text-justify:inter-ideograph;">The theme of this special session is the use of evolutionary computation for feature reduction, covering ALL different evolutionary computation paradigms. The aim is to investigate both the new theories and methods in different evolutionary computation paradigms to feature selection, feature extraction and construction, dimensionality reduction and related studies on improving quality of the feature space, and their applications. Authors are invited to submit their original and unpublished work to this special session.</p>
-				</div>
-			</div>
-          </div>
-		 
-          <div role="tabpanel" class="tab-pane fade" id="topics">
-            <div class="row">
-				<div class="col-md-12">
-					<h6 class="text-dark font-weight-bold">Topics of interest include but are not limited to: </h6>
-					<li>Dimensionality reduction </li>
-					<li>Feature ranking/weighting </li>
-					<li>Feature subset selection </li>
-					<li>Multi-objective feature selection </li>
-					<li>Filter, wrapper, and embedded methods for feature selection </li>
-					<li>Feature extraction or construction </li> 
-					<li>Single feature or multiple features construction </li>
-					<li>Filter, wrapper, and embedded methods for feature extraction </li>
-					<li>Multi-objective feature extraction </li>
-					<li>Feature selection, extraction, and dimensionality reduction in image analysis, pattern recognition, classification, clustering, regression, and other tasks </li>
-					<li>Feature selection, extraction, and dimensionality reduction on high-dimensional and large-scale data </li>
-					<li>Analysis on evolutionary feature selection, extraction, and dimensionality reduction algorithms </li>
-					<li>Hybridisation of evolutionary computation and neural networks, and fuzzy systems for feature selection and extraction </li>
-					<li>Hybridisation of evolutionary computation and machine learning, information theory, statistics, mathematical modelling, etc., for feature selection and extraction </li>
-					<li>Real-world applications of evolutionary feature selection and extraction, e.g. images and video sequences/analysis, face recognition, gene analysis, biomarker detection, medical data classification, diagnosis, and analysis, hand written digit recognition, text mining, instrument recognition, power system, financial and business data analysis, et al. </li>
-				</div>
-		
-			</div>
-		  </div>
-		  
-          <div role="tabpanel" class="tab-pane fade" id="submission">
-            <div class="row">
-              <div class="col-md-7">
-                <p style="text-align:justify; text-justify:inter-ideograph;">Please follow the <a href="https://www.cec2025.org/index/page.html?id=1298"> IEEE CEC2025 Submission Web Site</a>. Special session papers are treated the same as regular conference papers. Please specify that your paper is submitted to SS Evolutionary Computation for Feature Selection, Extraction and Dimensionality Reduction . All papers accepted and presented at IEEE CEC2025 will be included in the conference proceedings published by IEEE Explore, which are typically indexed by EI. </p>
-              </div>
-		    
-	      <div class="col-md-5">
-                  <h6 class="text-dark font-weight-bold">Important Date</h6>
-                  <li>Paper Submission Deadline: <span class="text-danger">January 15, 2025 (STRICT DEADLINE)</span></li>
-                  <li>Paper Acceptance Notification Date: March 15, 2025</li>
-                  <li>Final paper submission: May 1, 2025</li>
-              </div>
-		  
-            </div>
-          </div>
-		  
-          <div role="tabpanel" class="tab-pane fade" id="importantdate">
-            <div class="row">
-              <div class="col-md-12">
-                <li>Paper Submission Deadline: <span class="text-danger">January 15, 2025 (STRICT DEADLINE)</span></li>
-                <li>Paper Acceptance Notification Date: March 15, 2025</li>
-                <li>Final paper submission: May 1, 2025</li>
-              </div>
-              
-            </div>
-          </div>
-
-
-          <div role="tabpanel" class="tab-pane fade" id="IEEE_CIS_Support">
-            <div class="row">
-				This special session is supported by the IEEE CIS ECTC, Task Forces (Evolutionary Deep Learning and Applications, Evolutionary Computation for Feature Selection and Construction, Evolutionary Computer Vision and Image Processing) and IEEE ISATC.
-            </div>
-          </div>
-
-		<div role="tabpanel" class="tab-pane fade" id="committee">
-            <div class="row">
-              <div class="col-md-7">
-                <p></p>
-		      		<li> Ruwang Jiao, Soochow University, China </li>
-		      		<li> Krzysztof Krawiec, Poznan University of Technology, Poland </li>
-		      		<li> Brijesh Verma, Central Queensland University, Australia </li>
-		      		<li> Stefano Cagnoni, Universita degli Studi di Parma, Italy </li>
-		      		<li> Stewart W. Wilson, Prediction Dynamics, USA </li>
-		      		<li> Zexuan Zhu, Shenzhen University, China </li>
-		      		<li> Kai Qin, RMIT University, Australia </li>
-		      		<li> Kourosh Neshatian, University of Canterbury, New Zealand </li>
-		      		<li> Andy Song, RMIT University, Australia </li>
-		      		<li> Ivy Liu, Victoria University of Wellington, New Zealand </li>
-		      		<li> Lin Shang, Nanjing University, China </li>
-		      		<li> Yi Mei, Victoria University of Wellington, New Zealand </li>
-		      		<li> Zhongyi Hu, Wuhan University, China </li>
-		      		<li> Emrah Hancer, Erciyes University, Turkey </li>
-		      		<li> Harith Al-Sahaf, Victoria University of Wellington, New Zealand </li>
-		      		<li> Urvesh Bhowan, IBM, Ireland </li>
-		      		<li> Yanan Sun, Sichuan University, New Zealand </li>
-		      		<li> Qi Chen, Victoria University of Wellington, New Zealand  </li>
-		      		<li> Binh Tran, La Trobe University, Melbourne, Australia </li>
-		      		<li> Cao Truong Tran, Le Qui Don Technical University, Vietnam </li> 
-		      		<li> Andrew Lensen, Victoria University of Wellington, New Zealand </li>
-		      		<li> Ying Bi, Victoria University of Wellington, New Zealand  </li>
-		      		<li> Wenbin Pei, Victoria University of Wellington, New Zealand </li>
-              </div>
-<!--               <div class="col-md-1"></div> -->
-                <div class="col-md-5">
-                  <h6 class="text-dark font-weight-bold">Important Date</h6>
-                	<li>Paper Submission Deadline: <span class="text-danger">January 15, 2025 (STRICT DEADLINE)</span></li>
-                	<li>Paper Acceptance Notification Date: March 15, 2025</li>
-                	<li>Final paper submission: May 1, 2025</li>
-                </div>
-            </div>
-          </div>
-
-          <div role="tabpanel" class="tab-pane fade" id="Organization">
-            <div class="row">
-              <div class="col-md-12">
-				<p style="text-align:justify; text-justify:inter-ideograph;">
-					<li><span class="text-dark font-weight-bold">Dr Bach Nguyen</span>, School of Engineering and Computer Science, Victoria University of Wellington, Wellington, New Zealand, Hoai.Bach.Nguyen@ecs.vuw.ac.nz</li>
-					<li><span class="text-dark font-weight-bold">Prof Bing Xue</span>, School of Engineering and Computer Science, Victoria University of Wellington, Wellington, New Zealand, Bing.Xue@ecs.vuw.ac.nz </li>
-		       <li><span class="text-dark font-weight-bold">Prof Mengjie Zhang</span>, School of Engineering and Computer Science, Victoria University of Wellington, Wellington, New Zealand, Mengjie.Zhang@ecs.vuw.ac.nz </li>
-               </p>
-               <h6 class="text-dark font-weight-bold">Biography of the organisers:</h6>
-               <p style="text-align:justify; text-justify:inter-ideograph;"><span class="text-dark font-weight-bold">Bach Nguyen</span> is a Postdoctoral Research Fellow in the School of Engineering and Computer Science at Victoria University of Wellington. His research focuses mainly on feature selection/feature construction, evolutionary computation, and transfer learning. </p>
-		<p style="text-align:justify; text-justify:inter-ideograph;"> Dr Nguyen is the Vice-Chair of the IEEE Data Mining and Big Data Analytics Technical Committee and the Chair of the IEEE Task Force on Evolutionary Feature Selection and Construction in IEEE Computational Intelligence Society (IEEE CIS). He co-chaired of IEEE Symposium on Computational Intelligence in Data Mining in IEEE Symposium on Computational Intelligence (SSCI) 2021. He organised Special Session on Evolutionary Feature Selection, Construction, and Extraction and delivered a Tutorial on Evolutionary Feature Reduction in IEEE Congress on Evolutionary Computation (IEEE CEC) 2021. </p>
-
-               <p style="text-align:justify; text-justify:inter-ideograph;"><span class="text-dark font-weight-bold">Bing Xue</span> is a Professor in School of Engineering and Computer Science at Victoria University of Wellington. Her research focuses mainly on evolutionary computation, machine learning, feature selection, evolving deep neural networks, image analysis, transfer learning, multi-objective.  
-				<br><br>Prof Xue is a Vice-Chair (and founding chair) of IEEE Task Force on Evolutionary Feature Selection and Construction, of IEEE Task Force on Transfer Learning & Transfer Optimization, and of IEEE Task Force on Evolutionary Deep Learning and Applications in IEEE CIS. She is a co-chair of the Special Session on Evolutionary Feature Selection and Construction in IEEE CEC 2015-2021. Prof Xue has been a chair for a number of international conferences including CEC and GECCO. She is an Associate Editor or Member of the Editorial Board for seven international journals including IEEE Transactions of Evolutionary Computation.
-				</p>
-
-				<p style="text-align:justify; text-justify:inter-ideograph;"><span class="text-dark font-weight-bold">Mengjie Zhang</span> is a Fellow of Royal Society of New Zealand, a Fellow of IEEE, and a Professor at Victoria University of Wellington (VUW). He is Associate Dean in the Faculty of Engineering, VUW. His research is mainly focused on evolutionary computation, feature selection/construction, computer vision and image processing, evolutionary deep learning and transfer learning, job shop scheduling, multi-objective optimisation. 
-				<br><br>Prof Zhang has been served as an associated editor or editorial board member for over 10 international journals. He has been a major chair for 8 international conferences.  Since 2014, he has been co-chairing the Special Session on Evolutionary Feature Selection and Construction at IEEE CEC and SEAL. Prof Zhang was the Chair of the IEEE CIS Intelligent Systems Applications, the IEEE CIS Emergent Technologies Technical Committee, and the IEEE CIS Evolutionary Computation Technical Committee; a Vice-Chair of 3 IEEE CIS TFs; and also the founding chair of the IEEE Computational Intelligence Chapter in New Zealand.
-				</p>
-
-              </div>
-              
-            </div>
-
-          </div>
-          
-        </div>
+      <img src="CEC2026.jpg" alt="CEC 2025 Logo" style="max-height:80px; margin-bottom:1rem;">
+      <h1>Special Session on Evolutionary Computation for Feature Selection, Extraction, and Dimensionality Reduction</h1>
+      <p>IEEE Congress on Evolutionary Computation (CEC 2025) · June 8–12, 2025 · Hangzhou, China</p>
     </div>
-  </body>
-</html>
+  </header>
 
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="#">CEC 2025 SS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#scope">Scope & Aim</a></li>
+          <li class="nav-item"><a class="nav-link" href="#topics">Topics</a></li>
+          <li class="nav-item"><a class="nav-link" href="#dates">Important Dates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#submission">Submission</a></li>
+          <li class="nav-item"><a class="nav-link" href="#committee">Program Committee</a></li>
+          <li class="nav-item"><a class="nav-link" href="#organizers">Organizers</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <section id="scope">
+      <h2 class="section-title">Scope & Aim</h2>
+      <div class="card p-4 mt-3">
+        <p>In machine learning and data mining, the quality of the input data determines the quality of the output (e.g. accuracy), known as the GIGO (Garbage In, Garbage Out) principle. For a given problem, the input data of a learning algorithm is almost always expressed by a number of features (attributes or variables). Therefore, the quality of the feature space is a key for success of any machine learning and data algorithm.</p>
+        <p>Feature selection, feature extraction or construction and dimensionality reduction are important and necessary data pre-processing steps to increase the quality of the feature space, especially with the trend of big data. Feature selection aims to select a small subset of important features from the original feature set. Feature extraction or construction aims to create a set of effective, high-level features. Dimensionality reduction aims to reduce the data space dimensionality, mitigating the “curse of dimensionality.”</p>
+        <p>The theme of this special session is the use of evolutionary computation for feature reduction, covering all evolutionary computation paradigms. Authors are invited to submit original and unpublished work on theories, methods, and applications related to feature selection, extraction, and dimensionality reduction.</p>
+      </div>
+    </section>
+
+    <section id="topics">
+      <h2 class="section-title">Topics of Interest</h2>
+      <div class="card p-4 mt-3">
+        <ul>
+          <li>Dimensionality reduction and feature ranking/weighting</li>
+          <li>Feature subset selection and multi-objective feature selection</li>
+          <li>Filter, wrapper, and embedded methods for feature selection and extraction</li>
+          <li>Hybrid evolutionary computation with neural networks, fuzzy systems, and machine learning</li>
+          <li>Applications in image analysis, biomarker detection, text mining, finance, and more</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="dates">
+      <h2 class="section-title">Important Dates</h2>
+      <div class="card p-4 mt-3">
+        <ul>
+          <li><strong>Paper Submission Deadline:</strong> <span class="text-danger">January 15, 2025 (STRICT DEADLINE)</span></li>
+          <li><strong>Notification of Acceptance:</strong> March 15, 2025</li>
+          <li><strong>Final Paper Submission:</strong> May 1, 2025</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="submission">
+      <h2 class="section-title">Submission</h2>
+      <div class="card p-4 mt-3">
+        <p>Please follow the <a href="https://www.cec2025.org/index/page.html?id=1298" target="_blank">IEEE CEC 2025 Submission Website</a>. Special session papers are treated the same as regular conference papers. Please specify that your paper is submitted to the special session on Evolutionary Computation for Feature Selection, Extraction and Dimensionality Reduction. All accepted papers will be published in IEEE Xplore.</p>
+      </div>
+    </section>
+
+    <section id="committee">
+      <h2 class="section-title">Program Committee</h2>
+      <div class="card p-4 mt-3">
+        <p>The program committee includes leading researchers from around the world:</p>
+        <div class="row">
+          <div class="col-md-6">
+            <ul>
+              <li>Ruwang Jiao (Soochow University, China)</li>
+              <li>Krzysztof Krawiec (Poznan University of Technology, Poland)</li>
+              <li>Brijesh Verma (Central Queensland University, Australia)</li>
+              <li>Stefano Cagnoni (Università degli Studi di Parma, Italy)</li>
+              <li>Stewart W. Wilson (Prediction Dynamics, USA)</li>
+              <li>Zexuan Zhu (Shenzhen University, China)</li>
+              <li>Kai Qin (RMIT University, Australia)</li>
+              <li>Kourosh Neshatian (University of Canterbury, New Zealand)</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul>
+              <li>Andy Song (RMIT University, Australia)</li>
+              <li>Ivy Liu (Victoria University of Wellington, New Zealand)</li>
+              <li>Yi Mei (Victoria University of Wellington, New Zealand)</li>
+              <li>Zhongyi Hu (Wuhan University, China)</li>
+              <li>Emrah Hancer (Erciyes University, Turkey)</li>
+              <li>Harith Al-Sahaf (Victoria University of Wellington, New Zealand)</li>
+              <li>Ying Bi, Wenbin Pei, Qi Chen (Victoria University of Wellington, NZ)</li>
+              <li>Binh Tran (La Trobe University, Australia)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="organizers">
+      <h2 class="section-title">Organizers</h2>
+      <div class="card p-4 mt-3">
+        <ul>
+          <li><strong>Dr Bach Nguyen</strong>, Victoria University of Wellington, New Zealand — <em>Hoai.Bach.Nguyen@ecs.vuw.ac.nz</em></li>
+          <li><strong>Prof Bing Xue</strong>, Victoria University of Wellington, New Zealand — <em>Bing.Xue@ecs.vuw.ac.nz</em></li>
+          <li><strong>Prof Mengjie Zhang</strong>, Victoria University of Wellington, New Zealand — <em>Mengjie.Zhang@ecs.vuw.ac.nz</em></li>
+        </ul>
+        <hr>
+        <h5 class="text-primary fw-bold mt-3">Biographies</h5>
+        <p><strong>Bach Nguyen</strong> is a Postdoctoral Research Fellow at Victoria University of Wellington. His research focuses on feature selection, feature construction, evolutionary computation, and transfer learning. He serves as Vice-Chair of the IEEE Data Mining and Big Data Analytics Technical Committee and Chair of the IEEE Task Force on Evolutionary Feature Selection and Construction.</p>
+        <p><strong>Bing Xue</strong> is a Professor in the School of Engineering and Computer Science at Victoria University of Wellington. Her research interests include evolutionary computation, machine learning, evolving neural networks, image analysis, and multi-objective optimization. She serves as Vice-Chair of several IEEE CIS Task Forces and Associate Editor of multiple international journals.</p>
+        <p><strong>Mengjie Zhang</strong> is a Fellow of the Royal Society of New Zealand and IEEE, and Professor at Victoria University of Wellington. His research spans evolutionary computation, computer vision, feature construction, and deep learning. He has served as Associate Editor for over ten journals and chaired multiple international conferences including IEEE CEC and SEAL.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 IEEE Congress on Evolutionary Computation (CEC 2025). All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
