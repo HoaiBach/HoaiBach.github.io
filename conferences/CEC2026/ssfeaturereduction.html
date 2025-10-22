@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CEC 2026 | Special Session on Evolutionary Computation for Feature Reduction</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      margin-bottom: 0;
+    }
+
+/* Top banner: full-width logo with minimal spacing */
+header .cec-logo-banner {
+  background-color: #fff;
+  text-align: center;
+  padding: 0.3rem 0; /* reduced vertical padding */
+  border-bottom: 1px solid #e0e0e0;
+  margin: 0;
+}
+
+header .cec-logo-banner img {
+  width: 100%;
+  height: auto;
+  max-height: 160px; /* optional: control overall height */
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+    /* Second banner: title */
+    header .session-banner {
+      background: linear-gradient(135deg, #007BFF 0%, #0056b3 100%);
+      color: #fff;
+      text-align: center;
+        padding: 0.3rem 0; /* reduced vertical padding */
+    }
+
+    header .session-banner h1 {
+      font-weight: 700;
+      font-size: 1.6rem;
+      margin-bottom: 0.3rem;
+    }
+
+    header .session-banner p {
+      font-size: 1rem;
+      opacity: 0.95;
+    }
+
+    /* Centered navbar */
+    nav.navbar {
+      background-color: #f8f9fa;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      justify-content: center;
+    }
+
+    .navbar-nav {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+      margin: 0 0.8rem;
+    }
+
+    /* Minimal spacing between sections */
+    section {
+      padding: 0.5rem 0;
+    }
+
+    .section-title {
+      font-weight: 600;
+      color: #0056b3;
+      margin-bottom: 0.1rem;
+      border-bottom: 1px solid #0056b3;
+      display: inline-block;
+      font-size: 1.4rem;
+    }
+
+    li {
+      margin-bottom: 0.1rem;
+    }
+
+    .card {
+      border-radius: 1rem;
+      border: none;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      background: #f1f3f5;
+      padding: 1.5rem 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="cec-logo-banner">
+      <img src="CEC2026.jpg" alt="CEC 2026 Logo">
+    </div>
+
+    <div class="session-banner">
+      <div class="container">
+        <h1>Special Session on Evolutionary Computation for</h1>
+        <h1>Feature Selection, Extraction, and Dimensionality Reduction</h1>
+        <p>IEEE WCCI-CEC 2026 · June 21–26, 2026 · MECC, Maastricht, The Netherland</p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container justify-content-center">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#scope">Scope &amp; Aim</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#topics">Topics</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#dates">Important Dates</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#submission">Submission</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#committee">Program Committee</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#organizers">Organizers</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <section id="scope">
+      <h2 class="section-title">Scope &amp; Aim</h2>
+      <div class="card p-4 mt-3">
+        <p>In machine learning and data mining, the quality of the input data determines the quality of the output (e.g. accuracy), known as the GIGO (Garbage In, Garbage Out) principle. For a given problem, the input data of a learning algorithm is almost always expressed by a number of features (attributes or variables). Therefore, the quality of the feature space is a key for success of any machine learning and data algorithm.</p>
+        <p>Feature selection, feature extraction or construction and dimensionality reduction are important and necessary data pre-processing steps to increase the quality of the feature space, especially with the trend of big data. Feature selection aims to select a small subset of important features from the original feature set. Feature extraction or construction aims to create a set of effective, high-level features. Dimensionality reduction aims to reduce the data space dimensionality, mitigating the “curse of dimensionality.”</p>
+        <p>The theme of this special session is the use of evolutionary computation for feature reduction, covering all evolutionary computation paradigms. Authors are invited to submit original and unpublished work on theories, methods, and applications related to feature selection, extraction, and dimensionality reduction.</p>
+      </div>
+    </section>
+
+    <section id="topics">
+      <h2 class="section-title">Topics of Interest</h2>
+      <div class="card p-4 mt-3">
+        <ul>
+          <li>Dimensionality reduction and feature ranking/weighting</li>
+          <li>Feature subset selection and multi-objective feature selection</li>
+          <li>Filter, wrapper, and embedded methods for feature selection and extraction</li>
+          <li>Hybrid evolutionary computation with neural networks, fuzzy systems, and machine learning</li>
+          <li>Applications in image analysis, biomarker detection, text mining, finance, and more</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="dates">
+      <h2 class="section-title">Important Dates</h2>
+      <div class="card p-4 mt-3">
+        <ul>
+          <li><strong>Paper Submission Deadline:</strong> <span class="text-danger">January 31, 2026 (STRICT DEADLINE)</span></li>
+          <li><strong>Notification of Acceptance:</strong> March 15, 2026</li>
+          <li><strong>Final Paper Submission:</strong> April 15, 2026</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="submission">
+      <h2 class="section-title">Submission</h2>
+      <div class="card p-4 mt-3">
+        <p>Please follow the <a href="https://attend.ieee.org/wcci-2026/ieee-cec-2025/" target="_blank">IEEE CEC 2026 Submission Website</a>. Special session papers are treated the same as regular conference papers. Please specify that your paper is submitted to the special session on Evolutionary Computation for Feature Selection, Extraction and Dimensionality Reduction. All accepted papers will be published in IEEE Xplore.</p>
+      </div>
+    </section>
+
+    <section id="committee">
+      <h2 class="section-title">Program Committee</h2>
+      <div class="card p-4 mt-3">
+        <p>The program committee includes leading researchers from around the world:</p>
+        <div class="row">
+          <div class="col-md-6">
+            <ul>
+                <li>Bach Hoai Nguyen (Victoria University of Wellington, New Zealand)</li>
+              <li>Ruwang Jiao (Soochow University, China)</li>
+                  <li>Bing Xue (Victoria University of Wellington, New Zealand)</li>
+              <li>Krzysztof Krawiec (Poznan University of Technology, Poland)</li>
+              <li>Brijesh Verma (Central Queensland University, Australia)</li>
+              <li>Stefano Cagnoni (Università degli Studi di Parma, Italy)</li>
+              <li>Stewart W. Wilson (Prediction Dynamics, USA)</li>
+              <li>Zexuan Zhu (Shenzhen University, China)</li>
+              <li>Kai Qin (RMIT University, Australia)</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul>
+              <li>Andy Song (RMIT University, Australia)</li>
+              <li>Ivy Liu (Victoria University of Wellington, New Zealand)</li>
+              <li>Yi Mei (Victoria University of Wellington, New Zealand)</li>
+              <li>Zhongyi Hu (Wuhan University, China)</li>
+              <li>Emrah Hancer (Erciyes University, Turkey)</li>
+              <li>Harith Al-Sahaf (Victoria University of Wellington, New Zealand)</li>
+              <li>Ying Bi, Wenbin Pei, Qi Chen (Victoria University of Wellington, NZ)</li>
+              <li>Binh Tran (La Trobe University, Australia)</li>
+              <li>Kourosh Neshatian (University of Canterbury, New Zealand)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="organizers">
+      <h2 class="section-title">Organizers</h2>
+      <div class="card p-4 mt-3">
+        <ul>
+          <li><strong>Dr Bach Nguyen</strong>, Victoria University of Wellington, New Zealand — <em>Hoai.Bach.Nguyen@ecs.vuw.ac.nz</em></li>
+          <li><strong>A/Prof Ruwang Jiao</strong>, Soochow University, China — <em>rwjiao@suda.edu.cn</em></li>
+          <li><strong>Prof Bing Xue</strong>, Victoria University of Wellington, New Zealand — <em>Bing.Xue@ecs.vuw.ac.nz</em></li>
+        </ul>
+        <hr>
+        <h5 class="text-primary fw-bold mt-3">Biographies</h5>
+        <p><strong>Bach Nguyen</strong> is currently a Lecturer in Artificial Intelligence with the School of Engineering and Computer Science at Te Herenga Waka — Victoria University of Wellington (VUW), New Zealand. He received his Ph.D. in Computer Science from the same university in 2018. His research interests include evolutionary computation, feature selection and construction, multi-objective optimisation, transfer learning, and multi-label learning. Dr Nguyen is currently the Chair of the IEEE New Zealand Central Section and the Vice-Chair of the IEEE Computational Intelligence Society Task Force on Evolutionary Computation for Feature Selection and Construction. He has chaired special sessions and symposia at major IEEE conferences including CEC (2021–2025) and SSCI (2021–2023). He is a Principal Investigator on an MBIE Smart Ideas grant (2024–2027) focused on evolutionary learning for multi-millennial sea-level modelling.</p>
+        <p><strong>Ruwang Jiao</strong> is currently an Associate Professor with Soochow University, Suzhou, China. He was a Postdoctoral Research Fellow with the School of Engineering and Computer Science, Victoria University of Wellington, New Zealand. His research interests mainly include feature selection, dimensionality reduction, and evolutionary multi-objective learning. He received the Humboldt Research Fellowship and JSPS Research Fellowship in 2024. He is the chair of the IEEE CIS Task Force on Evolutionary Computation for Feature Selection and Construction. He Co-Chaired the special session on EMOML at IEEE CEC 2023 and IEEE WCCI 2024 and delivered a tutorial at IEEE SSCI 2023.</p>
+        <p><strong>Bing Xue</strong> is currently a Professor of Artificial Intelligence, and Deputy Head of School in the School of Engineering and Computer Science at VUW. She has over 500 papers published in fully refereed international journals and conferences and her research focuses mainly on evolutionary computation, machine learning, classification, symbolic regression, feature selection, evolving deep NNs, image analysis, transfer learning, multi-objective machine learning. Prof. Xue is currently the Chair of IEEE CIS Evolutionary Computation Technical Committee. She has also served as associate editor of several international journals, such as IEEE CIM, IEEE TEVC and ACM TELO. She is also a Fellow of Engineering New Zealand.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; IEEE WCCI-CEC 2026. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
