@@ -13,27 +13,51 @@
       color: #333;
       line-height: 1.6;
     }
+
+    /* Header section */
     header {
+      margin-bottom: 0;
+    }
+
+    header .cec-logo-banner {
+      background-color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    header .cec-logo-banner img {
+      max-height: 120px;
+      width: auto;
+    }
+
+    header .session-banner {
       background: linear-gradient(135deg, #007BFF 0%, #0056b3 100%);
       color: #fff;
       text-align: center;
-      padding: 4rem 1rem 3rem 1rem;
+      padding: 3rem 1rem;
     }
-    header h1 {
+
+    header .session-banner h1 {
       font-weight: 700;
       font-size: 2rem;
+      margin-bottom: 0.5rem;
     }
-    header p {
+
+    header .session-banner p {
       font-size: 1.1rem;
-      opacity: 0.9;
+      opacity: 0.95;
     }
+
     nav.navbar {
       background-color: #f8f9fa;
       box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     }
+
     section {
       padding: 3rem 0;
     }
+
     .section-title {
       font-weight: 600;
       color: #0056b3;
@@ -41,14 +65,17 @@
       border-bottom: 2px solid #0056b3;
       display: inline-block;
     }
+
     li {
       margin-bottom: 0.5rem;
     }
+
     .card {
       border-radius: 1rem;
       border: none;
       box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
+
     footer {
       background: #f1f3f5;
       padding: 2rem 1rem;
@@ -60,14 +87,23 @@
 </head>
 <body>
 
+  <!-- Header Section -->
   <header>
-    <div class="container">
-      <img src="CEC2026.jpg" alt="CEC 2025 Logo" style="max-height:80px; margin-bottom:1rem;">
-      <h1>Special Session on Evolutionary Computation for Feature Selection, Extraction, and Dimensionality Reduction</h1>
-      <p>IEEE Congress on Evolutionary Computation (CEC 2025) · June 8–12, 2025 · Hangzhou, China</p>
+    <!-- Top banner: CEC 2025 logo -->
+    <div class="cec-logo-banner">
+      <img src="cec2025_logo.png" alt="CEC 2025 Logo">
+    </div>
+
+    <!-- Second banner: Special Session title -->
+    <div class="session-banner">
+      <div class="container">
+        <h1>Special Session on Evolutionary Computation for Feature Selection, Extraction, and Dimensionality Reduction</h1>
+        <p>IEEE Congress on Evolutionary Computation (CEC 2025) · June 8–12, 2025 · Hangzhou, China</p>
+      </div>
     </div>
   </header>
 
+  <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <div class="container">
       <a class="navbar-brand fw-bold text-primary" href="#">CEC 2025 SS</a>
@@ -87,6 +123,7 @@
     </div>
   </nav>
 
+  <!-- Main Content -->
   <main class="container">
 
     <section id="scope">
